@@ -4,7 +4,6 @@ import Header from '../components/header'
 import { useState } from 'react';
 
 
-
 export default function SignUpPage() {
     const [state,DisplaySignUp] = useState(0)
     

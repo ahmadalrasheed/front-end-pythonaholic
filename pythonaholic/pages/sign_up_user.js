@@ -5,7 +5,6 @@ import { useState } from 'react';
 import SignUpFormForUsers from '../components/sign_up_form_for_user'
 
 
-
 export default function SignUpPage() {
     const [state,DisplaySignUp] = useState(0)
     

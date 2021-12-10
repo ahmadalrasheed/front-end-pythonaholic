@@ -1,18 +1,12 @@
-import axios from 'axios';
-import Header from '../components/header'
-import { useState } from 'react';
+import axios from "axios";
+
+import { useState } from "react";
+import Main from "../components/Main";
 
 export default function Home() {
-
-
-
-  
   return (
     <>
-    
-    <Header/>
-    
-    
+      <Main/>
     </>
-  )
+  );
 }
