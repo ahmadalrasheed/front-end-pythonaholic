@@ -29,11 +29,11 @@ export default function SignUpFormForCompany(props) {
         
         <div>
           <label for="CommericalCertificate">CommericalCertificate</label>
-          <input id="CommericalCertificate" name="CommericalCertificate" type="file" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="CommericalCertificate"/>
+          <input accept="image/*" id="CommericalCertificate" name="CommericalCertificate" type="file" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="CommericalCertificate"/>
         </div>
         <div>
           <label for="ID_Card" >ID Card</label>
-          <input id="ID_Card" name="ID_Card" type="file" autocomplete="ID_Card" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="ID Card"/>
+          <input id="ID_Card" accept="image/*" name="ID_Card" type="file" autocomplete="ID_Card" required class="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="ID Card"/>
         </div>
       </div>
 
