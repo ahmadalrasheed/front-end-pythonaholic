@@ -10,12 +10,12 @@ function classNames(...classes) {
 export default function MyDropDown() {
   return (
     <Menu as="div" className="relative inline-block text-left ">
-      <div>
-        <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+      <butto>
+        <Menu.Button className="inline-flex justify-center p-2 font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm ptext-sm p-11w-full hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
           Sign Up
           <ChevronDownIcon className="w-5 h-5 ml-2 -mr-1" aria-hidden="true" />
         </Menu.Button>
-      </div>
+      </butto>
 
       <Transition
         as={Fragment}
