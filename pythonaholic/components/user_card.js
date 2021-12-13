@@ -252,7 +252,18 @@ export default function CompanyCard() {
 
              <div class="panel panel-white border-top-blue">
                <div class="panel-heading">
-                 <h3 class="panel-title"><PreviousOffers/></h3>
+                 <h3 class="panel-title"></h3>
+                 <head>
+
+</head>
+<body>
+
+<h2>Display an Element on Hover</h2>
+
+<div class="myDIV">Hover over me.</div>
+<div class="hide">I am shown when someone hovers over the div above.</div>
+
+</body>
                  <div class="controls pull-right">
                    <span class="pull-right clickable">
                      <i class="fa fa-chevron-up"></i>
