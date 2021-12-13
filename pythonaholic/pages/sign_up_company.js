@@ -21,8 +21,8 @@ export default function SignUpPage() {
   return (
     <>
     
-    <Header DisplaySignUp={DisplaySignUp} state={state}/>
-    {console.log(state)}
+    {/* <Header DisplaySignUp={DisplaySignUp} state={state}/>
+    {console.log(state)} */}
     
     <SignUpFormForUser event_handler={event_handler}/>
     
